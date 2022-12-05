@@ -1,0 +1,122 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  margin-bottom: .5em;
+  line-height: 2;
+}
+
+hr{
+  background-color: #111111;
+  height:1px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin: 20px auto 0;
+}
+
+h3{
+  color:#1746A2;
+}
+
+
+.nav-bar{
+  background-color: #66BFBF;
+  padding: 40px;
+}
+
+.menu-links{
+  color: #EAF6F6;
+  font-size: 1.25rem;
+  padding: 0 40px;
+  position: relative;
+  top: 20px;
+}
+
+.menu-links:hover{
+  color: #111111;
+}
+
+.top-container{
+  background-color: #FFEFD6;
+  position: relative;
+}
+
+.personal{
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+}
+
+.intro{
+  width: 50%;
+  padding: 50px 0;
+  margin: auto;
+  text-align: left;
+  overflow: auto;
+}
+
+.education{
+
+  width: 37.5%;
+  text-align:left;
+  display:inline-block;
+}
+
+.work-experience{
+  width: 37.5%;
+  vertical-align: top;
+  text-align:left;
+  display:inline-block;
+}
+
+.education-items{
+  width:50%;
+  line-height: 2;
+}
+
+.work-items{
+  width:50%;
+  line-height: 2;
+}
+
+
+.bottom-container{
+  background-color:#66BFBF;
+  padding: 50px 0 20px;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.copyright-text{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
