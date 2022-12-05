@@ -98,6 +98,22 @@ h3{
   line-height: 2;
 }
 
+.skill-items2{
+  width: 50%;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  line-height: 2;
+}
+
+.skill.odd {
+  float: left;
+}
+
+.skill.even {
+  float: right;
+}
+
 
 .bottom-container{
   background-color:#66BFBF;
