@@ -1,18 +1,24 @@
-
-body{
+body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', sans-serif;
+  font-size:1.15rem;
 }
 
-p{
+@media (max-width:997px){
+  body{
+    font-size:1.25rem;
+  }
+}
+
+p {
   margin-bottom: .5em;
   line-height: 2;
 }
 
-hr{
+hr {
   background-color: #111111;
-  height:1px;
+  height: 1px;
 }
 
 h1 {
@@ -32,108 +38,179 @@ h2 {
   margin: 20px auto 0;
 }
 
-h3{
-  color:#1746A2;
+h3 {
+  color: #1746A2;
 }
 
-
-.nav-bar{
+.nav-bar {
   background-color: #66BFBF;
   padding: 40px;
 }
 
-.menu-links{
+.menu-links {
   color: #EAF6F6;
   font-size: 1.25rem;
   padding: 0 40px;
   position: relative;
   top: 20px;
+  text-decoration: none;
 }
 
-.menu-links:hover{
+.menu-links:hover {
   color: #111111;
 }
 
-.top-container{
+.top-container {
   background-color: #FFEFD6;
   position: relative;
+  padding: 2.5% 0;
 }
 
-.personal{
-  height: 300px;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 30px;
+.personal {
+  width: 300px;
+  margin: auto;
+  display: block;
+  padding: 7.5% 0;
 }
 
-.intro{
-  width: 50%;
-  padding: 50px 0;
+.top-container h1 {
+  text-align: center;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.intro-container {
+  width: 75%;
   margin: auto;
   text-align: left;
   overflow: auto;
 }
 
-.education{
-
-  width: 37.5%;
-  text-align:left;
-  display:inline-block;
+.intro-row{
+  margin: 5%;
 }
 
-.work-experience{
-  width: 37.5%;
+
+
+.heading-info {
+  margin: auto;
+}
+
+.portrait-photo:hover {
+  -moz-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  -o-transform: scale(1.10);
+  -ms-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  transform: scale(1.10);
+  -webkit-transition: transform 1.25s ease-in-out;
+  -moz-transition: transform 1.25s ease-in-out;
+  -ms-transition: transform 1.25s ease-in-out;
+}
+
+.accordion {
+  width: 75%;
+  margin: auto;
+  text-align: left;
+}
+
+.accordion-header {
+  margin: 0;
+  padding: 0.5%;
+}
+
+.accordion-button {
+  color: #FFFF;
+  background-color: #66BFBF;
+}
+
+.dtcc-logo{
+  width: 100%;
+}
+
+.image-logo-container{
+  margin: auto;
+}
+
+.education {
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+}
+
+.education-body {
+  text-align: left;
+}
+
+.texas-state-logo{
+  width:100%;
+}
+
+.work-body {
+  text-align: left;
+}
+
+.work-experience {
+  width: 40%;
   vertical-align: top;
-  text-align:left;
-  display:inline-block;
+  text-align: left;
+  display: inline-block;
 }
 
-.education-items{
-  width:50%;
-  line-height: 2;
-}
-
-.work-items{
-  width:50%;
-  line-height: 2;
-}
-
-.skill-items2{
+.education-items {
   width: 50%;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
   line-height: 2;
 }
 
-.skill.odd {
-  float: left;
+.work-items {
+  width: 100%;
+  line-height: 2;
 }
 
-.skill.even {
-  float: right;
+.carousel-container{
+  padding: 2.5% 0;
 }
 
-
-.bottom-container{
-  background-color:#66BFBF;
-  padding: 50px 0 20px;
+.carousel-container>h2{
+  font-family: "Montserrat", sans-serif;
 }
 
-.footer-link{
-  color: #11999E;
+.carousel-control-prev-icon{
+  background-color: #66BFBF;
+}
+
+.carousel-control-next-icon{
+  background-color: #66BFBF;
+}
+
+.carousel-container button{
+  opacity: 1;
+}
+
+.carousel-inner{
+  width: 80%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 1.5% 0;
+}
+
+.footer-link {
+  color: #FFFF;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
-
 }
 
-.footer-link:hover{
-  color: #EAF6F6;
+.footer-link:hover {
+  color: #11999E;
 }
 
-.copyright-text{
-  color: #EAF6F6;
+.copyright-text {
+  color: #636464;
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding-top: 1%;
+  margin: 0;
 }

@@ -4,86 +4,197 @@
 <head>
   <meta charset="utf-8">
   <title>Rodrigo's Personal Site</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://kit.fontawesome.com/46031f3086.js" crossorigin="anonymous"></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Montserrat&family=Orbitron&family=Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat&family=Orbitron&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Sans&family=Source+Sans+Pro:ital,wght@0,700;1,300;1,400&family=Sacramento&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <header>
     <div class="nav-bar">
       <div class="menu">
-        <a class="menu-links" href="https://samsaraprogramming.github.io/personal-site/">Home</a>
-        <a class="menu-links" href="https://samsaraprogramming.github.io/cv/">About Me</a>
-        <a class="menu-links" href="mailto:rodrjgom@gmail.com">Contact Me</a>
+        <a class="menu-links" href="file:///Users/rod/Documents/Web%20Development/CSS%20-%20My%20Site/index.html#"><i class="fa-solid fa-house"></i> Home</a>
+        <a class="menu-links" href="/Users/rod/Documents/Web Development/HTML - Personal Site/index.html"><i class="fa-solid fa-person"></i> About Me</a>
+        <a class="menu-links" href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
       </div>
     </div>
   </header>
   <div class="top-container">
-    <div class="intro">
-      <img class="personal" src="images/full.jpeg" alt="Personal Image">
-      <h1>About Me</h1>
-      <p>
-        I am a Software/Web Developer with 2+ years of experience in Software Testing. I am looking for an entry-level position in Software Engineering to learn and grow in my skillset.
-      </p>
+    <div class="intro-container container-fluid">
+      <div class="row intro-row">
+        <div class="col-12 col-sm-12 col-lg-6 portrait-photo">
+          <img class="personal" src="images/full.jpeg" alt="Personal Image">
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 heading-info">
+          <h1>About Myself</h1>
+          <p>
+            I am a Software/Web Developer with 2+ years of experience in Software Test Engineering. I am looking for an entry-level position in Software Engineering to learn and grow in my skillset.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="middle-container">
-    <div class="education">
-      <h2>Education</h2>
-      <ul class="education-items">
-        <li><strong><a href="https://www.txst.edu/" target="_blank">Texas State University</a></strong>
-          <ul>
-            <li>Location: San Marcos, Texas</li>
-            <li>Degree: Bachelor of Science in Engineering (Computer Engineering Concentration)</li>
-            <li>Graduation Date: May 2020</li>
-          </ul>
-        </li>
-        <li><strong>Programming Coursework</strong>
-          <ul>
-            <li>Computer Architecture</li>
-            <li>Object-Oriented Programming</li>
-            <li>Data Structures</li>
-            <li>Operating Systems</li>
-            <li>Intro to Database Systems</li>
-          </ul>
-        </li>
-        <li><strong>Awards</strong>
-          <ul>
-            <li>Men of Action, Leadership, and Excellence Scholar (Fall 2019)</li>
-            <li>Dean's List (Fall 2014, Spring 2020)</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <div class="work-experience">
-      <h2>Work Experience</h2>
-      <ul class="work-items">
-        <li><strong>Company</strong>: Depository Trust & Clearing Corporation</li>
-        <li><strong>Position</strong>: Software Test Engineer</li>
-        <li><strong>Dates</strong>: June 2020 to Present</li>
-        <li><strong>Job Description</strong>: Perform testing of enhancements in an Agile framework to ensure validated and bug-free releases as a Senior Software Analyst at an enterprise-level at DTCC to deliver successful releases for the company's instance of the ServiceNow application.</li>
-      </ul>
-      <h2>Skills</h2>
-      <ul class="skill-items2">
-        <li class="skill">Java</li>
-        <li class="skill">C/C++</li>
-        <li class="skill">Python</li>
-        <li class="skill">Javascript</li>
-        <li class="skill">CSS</li>
-        <li class="skill">Git</li>
-        <li class="skill">Agile/Waterfall Methodologies</li>
-      </ul>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="workHeading">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <strong>Work Experience</strong>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="workHeading" data-bs-parent="#accordionExample">
+          <div class="accordion-body work-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-8">
+                  <strong><a href="https://www.txst.edu/" target="_blank">Depository Trust & Clearing Corporation</a></strong>
+                  <br>
+                  <br>
+                  <div class="work-items">
+                    <strong>Position</strong>: Software Test Engineer
+                    <br>
+                    <strong>Dates</strong>: June 2020 to Present
+                    <br>
+                    <strong>Job Description</strong>: Perform automated & functional testing of enhancements in an Agile framework to ensure validated and bug-free releases as a Software Test Engineer at DTCC to deliver enhancements on company's
+                    instance of the ServiceNow application.
+                  </div>
+                </div>
+                <div class="col-4 image-logo-container">
+                  <img class="dtcc-logo" src="images/dtcc_logo.png" alt="DTCC Logo">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="educationHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <strong>Education</strong>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="educationHeading" data-bs-parent="#accordionExample">
+          <div class="accordion-body education-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-8">
+                  <strong><a href="https://www.txst.edu/" target="_blank">Texas State University</a><br>Bachelor of Science in Engineering (Computer Engineering Concentration)</strong>
+                  <br>
+                  <br>
+                  <strong>Programming Coursework</strong>
+                  <ul>
+                    <li>Computer Architecture</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>Data Structures</li>
+                    <li>Operating Systems</li>
+                    <li>Intro to Database Systems</li>
+                  </ul>
+                  <strong>Awards</strong>
+                  <ul>
+                    <li>Men of Action, Leadership, and Excellence Scholar (Fall 2019)</li>
+                    <li>Dean's List (Fall 2014, Spring 2020)</li>
+                  </ul>
+                </div>
+                <div class="col-4 image-logo-container">
+                  <img class="texas-state-logo" src="images/texas_state_logo.png" alt="Texas State Logo">
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="skillsHeading">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <strong>Skills</strong>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="skillsHeading" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-6">
+                  <li>Java</li>
+                  <li>C/C++</li>
+                  <li>Python</li>
+                  <li>Javascript</li>
+                  <li>Selenium</li>
+                </div>
+                <div class="col-6">
+                  <li>Bootstrap</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Agile & Scrum</li>
+                  <li>Git</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="carousel-container">
+    <h2>Things I like to do for fun!</h2>
+    <div id="carouselWithCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselWithCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselWithCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/crossfit.jpeg" class="d-block w-100" alt="Crossfit Pic">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Crossfit</h5>
+            <p>I like to keep myself active and in a healthy shape!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/Guitar.jpeg" class="d-block w-100" alt="Jamming">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Music</h5>
+            <p>I have been playing guitar for 10+ years!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselWithCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselWithCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/rodrjgom">LinkedIn</a>
-    <a class="footer-link" href="https://www.github.com/samsaraprogramming">Github</a>
-    <a class="footer-link" href="https://samsaraprogramming.github.io/personal-site/">Website</a>
-    <p class="copyright-text">© 2022 Rodrigo G.</p>
+    <a class="footer-link" href="https://github.com/samsaraprogramming/">Github</a>
+    <a class="footer-link" href="/Users/rod/Documents/Web Development/HTML - Personal Site/index.html">About Me</a>
+    <p class="copyright-text">© 2023 Rodrigo Gomez.</p>
   </div>
 </body>
 
