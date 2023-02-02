@@ -42,13 +42,13 @@ h3 {
   color: #1746A2;
 }
 
-.nav-bar {
+.nav-bar{
   background-color: #66BFBF;
   padding: 40px;
 }
 
-.menu-links {
-  color: #EAF6F6;
+.menu-links{
+  color: #FFFF;
   font-size: 1.25rem;
   padding: 0 40px;
   position: relative;
@@ -56,9 +56,11 @@ h3 {
   text-decoration: none;
 }
 
-.menu-links:hover {
+.menu-links:hover{
   color: #111111;
+  /* top: 10px; */
 }
+
 
 .top-container {
   background-color: #FFEFD6;
