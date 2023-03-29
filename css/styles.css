@@ -6,8 +6,6 @@ body {
 }
 
 
-
-
 p {
   margin-bottom: .5em;
   line-height: 2;
@@ -177,7 +175,12 @@ h3 {
   padding-bottom: 7.5%;
 }
 
-.carousel, .sign-up-form{
+.carousel{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.sign-up-form{
   width: 50%;
   margin: 0 auto;
 }
@@ -235,5 +238,20 @@ h3 {
 @media(max-width:576px){
   .personal{
     width: 100%;
+  }
+}
+
+@media (max-width: 991px){
+  h2{
+    font-size: 5.5vw;
+  }
+
+  .carousel{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .accordion {
+    width: 95%;
   }
 }
