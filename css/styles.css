@@ -93,6 +93,12 @@ h3 {
   margin: auto;
 }
 
+.portrait-photo{
+  -webkit-transition: transform 1.25s ease-in-out;
+  -moz-transition: transform 1.25s ease-in-out;
+  -ms-transition: transform 1.25s ease-in-out;
+}
+
 .portrait-photo:hover {
   -moz-transform: scale(1.10);
   -webkit-transform: scale(1.10);
